@@ -30,8 +30,7 @@ The goal of this project is to develop a web application that manages and displa
 
 ## Technologies Used
 - **Frontend**: React, HTML, CSS, JavaScript
-- **Backend**: Node.js, Express.js (optional for data handling)
-- **Database**: MongoDB / Firebase / MySQL (based on requirements)
+
 
 ## Installation & Setup
 1. Clone the repository:
@@ -50,13 +49,4 @@ The goal of this project is to develop a web application that manages and displa
    ```sh
    npm start
    ```
-
-## Contribution Guidelines
-- Fork the repository.
-- Create a new branch (`feature-branch-name`).
-- Commit your changes with descriptive messages.
-- Push your branch and create a pull request.
-
-## License
-This project is licensed under the MIT License.
 
