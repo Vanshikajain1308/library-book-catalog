@@ -1,0 +1,100 @@
+.about-page {
+  background-color: white;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  max-width: 1200px;
+  margin: 24px auto;
+  background: whitesmoke;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.page-title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #2c3e50;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  animation: slideInFromLeft 1s ease-in-out;
+}
+
+.about-text {
+  font-size: 18px;
+  color: #34495e;
+  margin-bottom: 20px;
+  line-height: 1.8;
+  text-align: justify;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  animation: fadeIn 1s ease-in-out;
+}
+
+.about-text:first-of-type {
+  margin-top: 20px;
+}
+
+.about-text::first-letter {
+  font-size: 24px;
+  font-weight: bold;
+  color: #060505;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  margin-top: 40px;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.footer-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.footer-icons {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.footer-icons a {
+  color: white;
+  font-size: 24px;
+  transition: color 0.3s;
+}
+
+.footer-icons a:hover {
+  color: #3b82f6;
+}
+
+.footer-text {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideInFromLeft {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
